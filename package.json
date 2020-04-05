@@ -1,6 +1,6 @@
 {
   "name": "@fooman/venia-ui-override-resolver",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "Customise individual files from the Magento 2 PWA Studio Venia Theme",
   "main": "./lib/VeniaUiResolverPlugin/index.js",
   "files": [

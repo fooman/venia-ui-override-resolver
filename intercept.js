@@ -1,5 +1,5 @@
 const name = 'fooman/venia-ui-override-resolver';
-const VeniaUiResolverPlugin = require('lib/VeniaUiResolverPlugin');
+const VeniaUiResolverPlugin = require('./lib/VeniaUiResolverPlugin');
 const path = require('path');
 const {cachedCleverMerge} = require('webpack/lib/util/cleverMerge');
 
