@@ -4,8 +4,8 @@
   "description": "Customise individual files from the Magento 2 PWA Studio Venia Theme",
   "main": "./lib/VeniaUiResolverPlugin/index.js",
   "files": [
-    "{lib}/*",
-    "{lib}/**/*",
+    "lib/*",
+    "lib/**/*",
     "intercept.js"
   ],
   "repository": "git@github.com:fooman/venia-ui-override-resolver.git",
