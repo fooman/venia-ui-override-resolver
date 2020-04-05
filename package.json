@@ -1,8 +1,13 @@
 {
   "name": "@fooman/venia-ui-override-resolver",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "Customise individual files from the Magento 2 PWA Studio Venia Theme",
-  "main": "index.js",
+  "main": "./lib/VeniaUiResolverPlugin/index.js",
+  "files": [
+    "{lib}/*",
+    "{lib}/**/*",
+    "intercept.js"
+  ],
   "repository": "git@github.com:fooman/venia-ui-override-resolver.git",
   "author": "Kristof Ringleff, Fooman <kristof@fooman.co.nz>",
   "license": "MIT",
