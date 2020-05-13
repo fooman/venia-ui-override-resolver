@@ -3,15 +3,6 @@
 ## Pre-Requisite
 This project is intended for [PWA Studio](https://github.com/magento/pwa-studio) version 6+.
 
-To install the beta version of PWA Studio 6 you can use:
-```
-git clone git@github.com:magento/pwa-studio.git tmp-pwa-create
-cd tmp-pwa-create
-git checkout release/6.0
-yarn install
-DEBUG_PROJECT_CREATION=1 packages/create-pwa/bin/create-pwa
-```
-
 ## Install this package
 ```
  yarn add @fooman/venia-ui-override-resolver
