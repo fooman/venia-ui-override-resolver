@@ -43,7 +43,7 @@ composes: input from '../TextInput/textInput.css';
 ```
 would require changing to
 ```
-composes: input from '../../../../../node_modules/@magento/venia-ui/lib/components/TextInput/textInput.css';
+composes: input from '~@magento/venia-ui/lib/components/TextInput/textInput.css';
 ```
 
 For Peregrine  
