@@ -4,7 +4,7 @@ const {cachedCleverMerge} = require('webpack/lib/util/cleverMerge');
 
 const packagesToOverride = process.env.FOOMAN_OVERRIDEPACKAGES
     ? process.env.FOOMAN_OVERRIDEPACKAGES.split(',')
-    : ['@magento/venia-ui' , '@magento/peregrine'];
+    : ['@magento/venia-ui/lib' , '@magento/peregrine/lib'];
 
 let resolverPlugins = [];
 
@@ -12,7 +12,7 @@ packagesToOverride.forEach(function(package) {
     const parts = package.split('/');
     const namespace = parts[0];
     const packagename = parts[1];
-    const mainFolder = parts[2] ? parts[2] : 'lib';
+    const mainFolder = parts[2];
     const pluginName = 'fooman/' + packagename + '-override-resolver';
     const destinationDir = path.resolve(__dirname, '..', '..', '..', 'src', 'overrides', packagename);
     const sourceDir = path.resolve(__dirname, '..', '..', '..', 'node_modules', namespace, packagename, mainFolder);

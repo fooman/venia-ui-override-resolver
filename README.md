@@ -51,3 +51,12 @@ Copy individual files from `node_modules/@magento/peregrine/lib` into `src/overr
 
 ## Note
 Please note that adding a new file requires restarting the watch process for the file to get recognised.
+
+## Overriding other packages
+
+The default list of package source folders (`'@magento/venia-ui/lib','@magento/peregrine/lib'`) can be overridden via the environment variable FOOMAN_OVERRIDEPACKAGES. This takes a list of comma separated package names in the form @namespace/packagename/srcfolder.
+
+Example
+```js
+FOOMAN_OVERRIDEPACKAGES='@magento/venia-ui/lib,@magento/peregrine/lib,@magento/pagebuilder/lib' webpack-dev-server --progress --color --env.mode development
+```
