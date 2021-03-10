@@ -1,7 +1,7 @@
 # Fooman VeniaUiOverrideResolver for PWA Studio
 
 ## Pre-Requisite
-This project is intended for [PWA Studio](https://github.com/magento/pwa-studio) version 6+.
+This project is intended for [PWA Studio](https://github.com/magento/pwa-studio) version 6+ started by using the `create-pwa` command.
 
 ## Install this package
 ```
